@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<style>
+		.menu-style{
+			width: 200px;
+		}
+		.para2{
+			margin-top: 15px;
+			padding: 15px;
+			border: 1px solid#999999;
+			min-height: 500px;
+		}
+				
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h3>Jquery Menu Widget</h3>
+		<div class="para2">
+			<div class="menu-style">
+				<ul id="menu">
+				<li>Website Design
+					<ul>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Bootstrap</li>
+					</ul>
+				</li>
+				<li>Web Development
+					<ul>
+						<li>PHP</li>
+						<li>JAVA
+							<ul>
+								<li>JSP</li>
+								<li>JSF</li>
+								<li>Spring</li>
+							</ul>
+						</li>
+						<li>Phython</li>
+					</ul>
+				</li>
+				<li class="ui-state-disabled">SEO</li>
+				<li>Blogging</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/jquery-ui.min.js"></script>
+<script>
+	$(document).ready(function(){
+		$("#menu").menu();
+	});	
+		
+  
+</script>
+
+</body>
+</html>

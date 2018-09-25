@@ -1,0 +1,46 @@
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.para{
+	height: 200px;
+	width: 600px;
+	border: 1px solid#999999;
+	padding: 15px;
+	margin-bottom: 10px;
+}
+/**--------------------------------
+		index1 css
+-----------------------------------**/
+.para1{
+	height: 200px;
+	width: 600px;
+	border: 1px solid#999999;
+	padding: 15px;
+	margin-bottom: 10px;
+	display: none;
+}
+/**--------------------------------
+		index2 css
+-----------------------------------**/
+.content{
+	position: relative;
+	height: 200px;
+	width: 600px;
+}
+.inside{
+	position: absolute;
+	height:150px;
+	width: 150px;
+	background: skyblue;
+	border: 1px solid#999999;
+	color: #ffffff;
+	padding: 10px;
+	border-radius: 50%;
+}
+/**--------------------------------
+		index4 css
+-----------------------------------**/
+#p1{
+	color: blue;
+}
